@@ -1,0 +1,130 @@
+.postSk {
+    width: 268px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    animation: skeleton 0.8s ease infinite alternate;
+}
+
+@keyframes skeleton {
+    to {
+        opacity: 0.5;
+    }
+}
+
+.postSkImg {
+    background-color: #313131;
+    width: 268px;
+    height: 153px;
+}
+
+.postSkInfo {
+    display: flex;
+    margin-top: 15px;
+}
+
+.postSkAvatar {
+    background-color: #313131;
+    width: 36px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.postSkDetail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.postSkText {
+    background-color: #313131;
+    width: 90%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.postSkText.sm {
+    width: 50%;
+}
+
+.topSk {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    animation: skeleton 0.8s ease infinite alternate;
+}
+
+.topSkIcon {
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #313131;
+}
+
+.topSkAvatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 40px;
+    background-color: #313131;
+}
+
+.menuSk {
+    animation: skeleton 0.8s ease infinite alternate;
+}
+
+.menuSkItem {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 40px;
+    background-color: #313131;
+}
+
+.circle, .custom {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.balls {
+    display: flex;
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+    animation: ball 0.5s ease infinite alternate;
+}
+
+.b2 {
+    animation-delay: 0.1s;
+    background-color: blueviolet;
+}
+
+.b3 {
+    animation-delay: 0.2s;
+    background-color: yellowgreen;
+}
+
+@keyframes ball {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.customText {
+    font-weight: 100;
+}
